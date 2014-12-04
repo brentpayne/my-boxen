@@ -5,6 +5,10 @@ class people::brentpayne {
   include chrome
   include firefox
 
+  include zsh
+  include zshgitprompt
+  include ohmyzsh
+
   include adium
   include alfred
   include better_touch_tools
@@ -42,15 +46,6 @@ class people::brentpayne {
 
 
   $home     = "/Users/${::boxen_user}"
-#  $my       = "${home}/my"
-#  $dotfiles = "${my}/dotfiles"
 
-#  file { $my:
-#    ensure  => directory
-#  }
 
-#  repository { $dotfiles:
-#    source  => 'brentpayne/dotfiles',
-#    require => File[$my]
-#  }
 }

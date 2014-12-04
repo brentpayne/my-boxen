@@ -149,6 +149,11 @@ GITHUBTARBALL
     opera (0.3.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.8.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
     phantomjs (2.3.0)
@@ -229,6 +234,21 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-zsh
+  specs:
+    zsh (1.0.0)
+
+GITHUBTARBALL
+  remote: boxen/puppet-zshgitprompt
+  specs:
+    zshgitprompt (1.0.2)
+
+GITHUBTARBALL
+  remote: erivello/puppet-ohmyzsh
+  specs:
+    ohmyzsh (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.1.1)
@@ -272,10 +292,12 @@ DEPENDENCIES
   module_data (= 0.0.3)
   nginx (= 1.4.4)
   nodejs (= 4.0.0)
+  ohmyzsh (= 1.0.0)
   omnigraffle (>= 0)
   onepassword (>= 0)
   openssl (= 1.0.0)
   opera (>= 0)
+  osx (>= 0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
   pycharm (>= 0)
@@ -293,4 +315,6 @@ DEPENDENCIES
   sudo (= 1.0.0)
   virtualbox (>= 0)
   xquartz (= 1.2.1)
+  zsh (= 1.0.0)
+  zshgitprompt (>= 0)
 

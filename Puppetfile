@@ -49,6 +49,7 @@ github "inifile",     "1.1.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.4.4"
 github "nodejs",      "4.0.0"
 github "openssl",     "1.0.0"
+github "osx"
 github "phantomjs",   "2.3.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.3.0"
@@ -56,6 +57,10 @@ github "ruby",        "8.1.7"
 github "stdlib",      "4.2.1", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
+github 'zsh', '1.0.0'
+
+github 'ohmyzsh', '1.0.0',  :repo => "erivello/puppet-ohmyzsh"
+github 'zshgitprompt'
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
