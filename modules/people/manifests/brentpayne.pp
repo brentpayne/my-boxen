@@ -15,7 +15,7 @@ class people::brentpayne {
   include caffeine
   include colloquy
   include dash
-  include docker
+#  include docker
   include dropbox
   include emacs   # requires emacs module in Puppetfile
   include evernote
