@@ -50,12 +50,8 @@ github "inifile",     "1.4.1", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.7.0"
 github "nodejs",      "5.0.9"
 github "openssl",     "1.0.0"
-<<<<<<< HEAD
 github "osx"
-github "phantomjs",   "2.4.0"
-=======
 github "phantomjs",   "3.0.0"
->>>>>>> 38d2db4fade841ae8bc2a4f83c06c193b72c37a4
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
 github "ruby",        "8.5.4"
